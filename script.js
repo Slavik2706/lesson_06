@@ -9,7 +9,6 @@ function getRandomInt(min, max) {
    return Math.floor(Math.random() * (max - min)) + min;
 }
 
-
 function isNumeric(n) {
    return !isNaN(parseFloat(n)) && isFinite(n);
 }
